@@ -91,7 +91,7 @@
 		default:
 			$page_content = 'Legend';
 			$page_text = 'Pa check mo sa mama mo';
-			$srcimage='sampleimages/Legend.jpg';
+			$srcimage='sampleimages/Legend.png';
 		}
 
 		echo '<h2>' . $page_content . '</h2>';
