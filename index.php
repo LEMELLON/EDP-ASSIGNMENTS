@@ -90,7 +90,7 @@
 			break;
 		default:
 			$page_content = 'Legend';
-			$page_text = 'Pa check mo sa mama mo';
+			$page_text = ';)';
 			$srcimage='sampleimages/Legend.png';
 		}
 
