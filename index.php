@@ -91,7 +91,7 @@
 		default:
 			$page_content = 'Legend';
 			$page_text = ';)';
-			$srcimage='sampleimages/Legend.png';
+			$srcimage='sampleimages/Legend2.png';
 		}
 
 		echo '<h2>' . $page_content . '</h2>';
