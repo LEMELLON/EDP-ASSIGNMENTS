@@ -1,0 +1,1 @@
+<p class="footer">© 2023 Quiver. All rights reserved.</p>

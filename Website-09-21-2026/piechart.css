@@ -1,0 +1,39 @@
+/* Pie chart used on the Stats page. Uses the same accent color as buttons/card-lead. */
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pie-chart {
+    --size: 90px;
+    --accent: #0f766e;
+    --track: rgb(220, 220, 220);
+
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background: conic-gradient(var(--accent) var(--value), var(--track) 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-chart span {
+    width: 68%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #0f766e;
+}
